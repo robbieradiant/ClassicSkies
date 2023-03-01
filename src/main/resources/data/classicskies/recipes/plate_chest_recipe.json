@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "classicskies:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "classicskies:plate_armor_chestplate",
+    "count": 1
+  }
+}

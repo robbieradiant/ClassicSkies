@@ -1,0 +1,12 @@
+{
+  "human_hurt": {
+    "category": "voice",
+    "subtitle": "subtitles.human_hurt",
+    "sounds": [
+      {
+        "name": "classicskies:human_hurt",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classicskies:blocks/wood_top",
+    "up": "classicskies:blocks/wood_top",
+    "north": "classicskies:blocks/wood",
+    "east": "classicskies:blocks/wood",
+    "south": "classicskies:blocks/wood",
+    "west": "classicskies:blocks/wood",
+    "particle": "classicskies:blocks/wood_top"
+  }
+}

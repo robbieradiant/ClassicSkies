@@ -1,0 +1,57 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": false,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "stevecosupplycrate.png",
+          "use1Xscale": false,
+          "name": "stevecosupplycrate.png",
+          "x": 85,
+          "y": 37
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Not now",
+          "onClick": {
+            "name": "CloseGUI"
+          },
+          "width": 110,
+          "height": 20,
+          "name": "Not now",
+          "x": 99,
+          "y": 170
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Go to store",
+          "width": 110,
+          "height": 20,
+          "name": "Go to store",
+          "x": 218,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

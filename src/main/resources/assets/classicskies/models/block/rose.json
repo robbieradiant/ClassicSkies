@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "classicskies:blocks/rose",
+    "particle": "classicskies:blocks/rose"
+  }
+}

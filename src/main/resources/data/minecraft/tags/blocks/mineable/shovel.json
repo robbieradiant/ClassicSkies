@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "classicskies:classic_grass",
+    "classicskies:cave_grass",
+    "classicskies:dirt"
+  ]
+}

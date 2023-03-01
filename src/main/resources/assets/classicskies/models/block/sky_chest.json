@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classicskies:blocks/chest",
+    "up": "classicskies:blocks/chest",
+    "north": "classicskies:blocks/chestfront",
+    "east": "classicskies:blocks/chestside",
+    "south": "classicskies:blocks/chestside",
+    "west": "classicskies:blocks/chestside",
+    "particle": "classicskies:blocks/sky_planks"
+  }
+}

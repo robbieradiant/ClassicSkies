@@ -1,0 +1,54 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:CaveGame"
+      },
+      {
+        "value": "CUSTOM:Indev"
+      },
+      {
+        "value": "CUSTOM:Infdev"
+      },
+      {
+        "value": "CUSTOM:CavePlains"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:ClassicStone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "canRespawnHere": false,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "BackToThePastFunction"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:ClassicStone"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:NoParticle"
+    },
+    "portalLuminance": 2,
+    "portalSound": {
+      "value": ""
+    },
+    "igniterName": "Flint and Stone",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "flint_and_final_stone",
+    "portalTexture": "skyportal",
+    "enablePortal": true
+  }
+}

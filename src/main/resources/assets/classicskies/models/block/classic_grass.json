@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "classicskies:blocks/dirt",
+    "up": "classicskies:blocks/grasstop",
+    "north": "classicskies:blocks/grassside",
+    "east": "classicskies:blocks/grassside",
+    "south": "classicskies:blocks/grassside",
+    "west": "classicskies:blocks/grassside",
+    "particle": "classicskies:blocks/dirt"
+  }
+}

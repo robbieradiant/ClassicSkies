@@ -1,0 +1,640 @@
+{
+  "mod_elements": [
+    {
+      "name": "SkyDimension",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_dimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "BackToThePast",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_to_the_past"
+    },
+    {
+      "name": "ClassicGrass",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_grass"
+    },
+    {
+      "name": "ClassicStone",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "classic_stone"
+    },
+    {
+      "name": "Oldstone",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oldstone"
+    },
+    {
+      "name": "CaveGame",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_game"
+    },
+    {
+      "name": "Pigman",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pigman"
+    },
+    {
+      "name": "PigmanTame",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pigman_tame",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PlateArmor",
+      "type": "armor",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_armor",
+      "metadata": {
+        "eh": true,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot"
+    },
+    {
+      "name": "PlateHelmRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_helm_recipe"
+    },
+    {
+      "name": "PlateChestRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_chest_recipe"
+    },
+    {
+      "name": "SteelRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_recipe"
+    },
+    {
+      "name": "Paeonia",
+      "type": "plant",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paeonia"
+    },
+    {
+      "name": "Studded",
+      "type": "armor",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studded",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CaveGrass",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_grass"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore"
+    },
+    {
+      "name": "SkyPlanks",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_planks"
+    },
+    {
+      "name": "Wood",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood"
+    },
+    {
+      "name": "SkyLeaves",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_leaves"
+    },
+    {
+      "name": "Indev",
+      "type": "biome",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indev"
+    },
+    {
+      "name": "Dirt",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt"
+    },
+    {
+      "name": "Logs",
+      "type": "tag",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logs"
+    },
+    {
+      "name": "SkyLeafTable",
+      "type": "loottable",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_leaf_table"
+    },
+    {
+      "name": "SkySapling",
+      "type": "plant",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_sapling"
+    },
+    {
+      "name": "SkySaplingGrow",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_sapling_grow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StuddedHelmet",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studded_helmet"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "StuddedChestplate",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studded_chestplate"
+    },
+    {
+      "name": "StuddedLeggings",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studded_leggings"
+    },
+    {
+      "name": "StuddedBoots",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "studded_boots"
+    },
+    {
+      "name": "Rose",
+      "type": "plant",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose"
+    },
+    {
+      "name": "RoseRed",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose_red"
+    },
+    {
+      "name": "PaeoniaPink",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paeonia_pink"
+    },
+    {
+      "name": "SkySaplingBoneMeal",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_sapling_bone_meal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IndevChest",
+      "type": "loottable",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "indev_chest"
+    },
+    {
+      "name": "ChestGUI",
+      "type": "gui",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_gui"
+    },
+    {
+      "name": "SkyChest",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_chest"
+    },
+    {
+      "name": "SteveCoSupplyCrate",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_co_supply_crate"
+    },
+    {
+      "name": "SteveGUI",
+      "type": "gui",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steve_gui"
+    },
+    {
+      "name": "CloseGUI",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close_gui",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoParticle",
+      "type": "particle",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "no_particle"
+    },
+    {
+      "name": "BackToThePastFunction",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "back_to_the_past_function",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyAppleEat",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_apple_eat",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyApple",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_apple"
+    },
+    {
+      "name": "PlateSword",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plate_sword"
+    },
+    {
+      "name": "Infdev",
+      "type": "biome",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infdev"
+    },
+    {
+      "name": "Stone",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone"
+    },
+    {
+      "name": "CavePlains",
+      "type": "biome",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_plains"
+    },
+    {
+      "name": "Human",
+      "type": "livingentity",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "human"
+    },
+    {
+      "name": "TradeRubyFlowerSlot1",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_ruby_flower_slot_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TradeRubyFlowerDeleteOutput",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_ruby_flower_delete_output",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TradeRubyFlowerFinal",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_ruby_flower_final",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TradeRubyFlower",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trade_ruby_flower"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "human_hurt",
+      "files": [
+        "human_hurt"
+      ],
+      "category": "voice",
+      "subtitle": "Human hurts"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.classicskies.plate_armor_chestplate": "Plate Chestplate",
+      "block.classicskies.wood": "Wood",
+      "advancements.back_to_the_past.title": "Back To The Past",
+      "item.classicskies.studded_helmet": "Studded Helmet",
+      "advancements.back_to_the_past.descr": "Enter the Sky Dimension for the first time",
+      "entity.classicskies.pigman": "Pigman",
+      "item.classicskies.studded_chestplate": "Studded Body",
+      "item.classicskies.pigman_spawn_egg": "Pigman Spawn Egg",
+      "block.classicskies.sky_planks": "Sky Planks",
+      "block.classicskies.classic_grass": "Sky Grass",
+      "item.classicskies.ruby": "Ruby",
+      "block.classicskies.sky_sapling": "Sky Sapling",
+      "biome.classicskies.cave_plains": "Cave Plains",
+      "item.classicskies.sky_dimension": "Flint and Stone",
+      "block.classicskies.stone": "Stone",
+      "item.classicskies.sky_apple": "Sky Apple",
+      "biome.classicskies.infdev": "Infdev",
+      "block.classicskies.oldstone": "Cavestone",
+      "block.classicskies.ruby_ore": "Ruby Ore",
+      "biome.classicskies.indev": "Indev",
+      "item.classicskies.studded_boots": "Studded Boots",
+      "item.classicskies.plate_armor_leggings": "Plate Armor Leggings",
+      "block.classicskies.dirt": "Dirt",
+      "block.classicskies.rose": "Rose",
+      "item.classicskies.studded_leggings": "Studded Leggings",
+      "item.classicskies.plate_sword": "Steel Sword",
+      "block.classicskies.steve_co_supply_crate": "Steve Co. Supply Crate",
+      "subtitles.human_hurt": "Human hurts",
+      "entity.classicskies.human": "Human",
+      "biome.classicskies.cave_game": "Cave Game",
+      "block.classicskies.sky_leaves": "Sky Leaves",
+      "block.classicskies.paeonia": "Paeonia",
+      "item.classicskies.plate_armor_boots": "Plate Armor Boots",
+      "item.classicskies.human_spawn_egg": "Human Spawn Egg",
+      "block.classicskies.cave_grass": "Cave Grass",
+      "block.classicskies.classic_stone": "Skystone",
+      "item.classicskies.steel_ingot": "Steel Ingot",
+      "item.classicskies.plate_armor_helmet": "Plate Helmet",
+      "block.classicskies.sky_chest": "Sky Chest"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "classicskies",
+    "modName": "Classic Skies",
+    "version": "1.0.0",
+    "author": "sonicSnap",
+    "websiteURL": "https://curseforge.com",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Majority of the textures are by Mojang",
+    "modElementsPackage": "me.sonicsnap.classicskies",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

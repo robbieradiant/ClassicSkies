@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "classicskies:block/steve_co_supply_crate"
+    },
+    "facing=east": {
+      "model": "classicskies:block/steve_co_supply_crate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "classicskies:block/steve_co_supply_crate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "classicskies:block/steve_co_supply_crate",
+      "y": 270
+    }
+  }
+}
