@@ -26,6 +26,7 @@ import me.sonicsnap.classicskies.block.RubyOreBlock;
 import me.sonicsnap.classicskies.block.RoseBlock;
 import me.sonicsnap.classicskies.block.PaeoniaBlock;
 import me.sonicsnap.classicskies.block.OldstoneBlock;
+import me.sonicsnap.classicskies.block.DirtSlabBlock;
 import me.sonicsnap.classicskies.block.DirtBlock;
 import me.sonicsnap.classicskies.block.ClassicStoneBlock;
 import me.sonicsnap.classicskies.block.ClassicGrassBlock;
@@ -50,6 +51,7 @@ public class ClassicskiesModBlocks {
 	public static final RegistryObject<Block> SKY_CHEST = REGISTRY.register("sky_chest", () -> new SkyChestBlock());
 	public static final RegistryObject<Block> STEVE_CO_SUPPLY_CRATE = REGISTRY.register("steve_co_supply_crate", () -> new SteveCoSupplyCrateBlock());
 	public static final RegistryObject<Block> STONE = REGISTRY.register("stone", () -> new StoneBlock());
+	public static final RegistryObject<Block> DIRT_SLAB = REGISTRY.register("dirt_slab", () -> new DirtSlabBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

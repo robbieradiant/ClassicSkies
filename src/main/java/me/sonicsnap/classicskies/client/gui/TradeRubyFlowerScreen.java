@@ -51,7 +51,7 @@ public class TradeRubyFlowerScreen extends AbstractContainerScreen<TradeRubyFlow
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("classicskies:textures/screens/ruby_flower.png"));
-		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 80, 176, 80);
 
 		RenderSystem.disableBlend();
 	}
@@ -72,7 +72,7 @@ public class TradeRubyFlowerScreen extends AbstractContainerScreen<TradeRubyFlow
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Human", 73, 5, -12829636);
+		this.font.draw(poseStack, "Human", 73, 6, -12829636);
 		this.font.draw(poseStack, "Inventory", 7, 72, -12829636);
 	}
 

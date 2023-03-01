@@ -69,7 +69,7 @@ public class ChestGUIScreen extends AbstractContainerScreen<ChestGUIMenu> {
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
 		this.font.draw(poseStack, "Sky Chest", 7, 6, -12829636);
-		this.font.draw(poseStack, "Inventory", 7, 71, -12829636);
+		this.font.draw(poseStack, "Inventory", 7, 72, -12829636);
 	}
 
 	@Override

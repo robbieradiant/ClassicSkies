@@ -8,5 +8,25 @@
         "stream": false
       }
     ]
+  },
+  "chest_open": {
+    "category": "block",
+    "subtitle": "subtitles.chest_open",
+    "sounds": [
+      {
+        "name": "classicskies:chest_open",
+        "stream": false
+      }
+    ]
+  },
+  "chest_close": {
+    "category": "block",
+    "subtitle": "subtitles.chest_close",
+    "sounds": [
+      {
+        "name": "classicskies:chest_close",
+        "stream": false
+      }
+    ]
   }
 }

@@ -14,6 +14,7 @@ import me.sonicsnap.classicskies.world.biome.InfdevBiome;
 import me.sonicsnap.classicskies.world.biome.IndevBiome;
 import me.sonicsnap.classicskies.world.biome.CavePlainsBiome;
 import me.sonicsnap.classicskies.world.biome.CaveGameBiome;
+import me.sonicsnap.classicskies.world.biome.AlphaBiome;
 import me.sonicsnap.classicskies.ClassicskiesMod;
 
 public class ClassicskiesModBiomes {
@@ -22,4 +23,5 @@ public class ClassicskiesModBiomes {
 	public static final RegistryObject<Biome> INDEV = REGISTRY.register("indev", () -> IndevBiome.createBiome());
 	public static final RegistryObject<Biome> INFDEV = REGISTRY.register("infdev", () -> InfdevBiome.createBiome());
 	public static final RegistryObject<Biome> CAVE_PLAINS = REGISTRY.register("cave_plains", () -> CavePlainsBiome.createBiome());
+	public static final RegistryObject<Biome> ALPHA = REGISTRY.register("alpha", () -> AlphaBiome.createBiome());
 }

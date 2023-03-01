@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "classicskies:block/dirt_slab"
+    },
+    "type=top": {
+      "model": "classicskies:block/dirt_slab_top"
+    },
+    "type=double": {
+      "model": "classicskies:block/dirt_slab_full"
+    }
+  }
+}

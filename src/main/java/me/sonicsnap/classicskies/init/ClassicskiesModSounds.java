@@ -19,6 +19,8 @@ public class ClassicskiesModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("classicskies", "human_hurt"), new SoundEvent(new ResourceLocation("classicskies", "human_hurt")));
+		REGISTRY.put(new ResourceLocation("classicskies", "chest_open"), new SoundEvent(new ResourceLocation("classicskies", "chest_open")));
+		REGISTRY.put(new ResourceLocation("classicskies", "chest_close"), new SoundEvent(new ResourceLocation("classicskies", "chest_close")));
 	}
 
 	@SubscribeEvent

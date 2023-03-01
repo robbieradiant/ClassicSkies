@@ -17,11 +17,11 @@
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -6830489,
+      "value": -6816000,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -6830489,
+      "value": -6816000,
       "falpha": 0.0
     },
     "waterColor": {
@@ -50,10 +50,10 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.1,
+    "rainingPossibility": 0.2,
     "temperature": 0.5,
-    "baseHeight": 0.19999999999999998,
-    "heightVariation": 0.6,
+    "baseHeight": 0.30000000000000004,
+    "heightVariation": 0.7,
     "spawnBiome": false,
     "spawnBiomeNether": false,
     "spawnInCaves": false,

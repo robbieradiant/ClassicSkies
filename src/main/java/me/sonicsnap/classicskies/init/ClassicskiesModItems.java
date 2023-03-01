@@ -57,6 +57,7 @@ public class ClassicskiesModItems {
 	public static final RegistryObject<Item> STONE = block(ClassicskiesModBlocks.STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> HUMAN = REGISTRY.register("human_spawn_egg",
 			() -> new ForgeSpawnEggItem(ClassicskiesModEntities.HUMAN, -16734040, -5014686, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> DIRT_SLAB = block(ClassicskiesModBlocks.DIRT_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

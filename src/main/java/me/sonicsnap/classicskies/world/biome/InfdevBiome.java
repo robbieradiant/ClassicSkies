@@ -39,7 +39,7 @@ public class InfdevBiome {
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("classicskies:tree_infdev",
 						FeatureUtils.register("classicskies:tree_infdev", Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
-								BlockStateProvider.simple(ClassicskiesModBlocks.WOOD.get().defaultBlockState()), new StraightTrunkPlacer(7, 2, 0),
+								BlockStateProvider.simple(ClassicskiesModBlocks.WOOD.get().defaultBlockState()), new StraightTrunkPlacer(5, 2, 0),
 								BlockStateProvider.simple(ClassicskiesModBlocks.SKY_LEAVES.get().defaultBlockState()),
 								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
 								.decorators(

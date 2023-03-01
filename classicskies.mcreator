@@ -558,6 +558,86 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "trade_ruby_flower"
+    },
+    {
+      "name": "Alpha",
+      "type": "biome",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alpha"
+    },
+    {
+      "name": "DirtSlab",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_slab"
+    },
+    {
+      "name": "DirtSlabRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_slab_recipe"
+    },
+    {
+      "name": "ChestGUIOpen",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_gui_open",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChestGUIClose",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chest_gui_close",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -569,12 +649,29 @@
       ],
       "category": "voice",
       "subtitle": "Human hurts"
+    },
+    {
+      "name": "chest_open",
+      "files": [
+        "chest_open"
+      ],
+      "category": "block",
+      "subtitle": "Sky Chest opens"
+    },
+    {
+      "name": "chest_close",
+      "files": [
+        "chest_close"
+      ],
+      "category": "block",
+      "subtitle": "Sky Chest closes"
     }
   ],
   "language_map": {
     "en_us": {
       "item.classicskies.plate_armor_chestplate": "Plate Chestplate",
       "block.classicskies.wood": "Wood",
+      "subtitles.chest_close": "Sky Chest closes",
       "advancements.back_to_the_past.title": "Back To The Past",
       "item.classicskies.studded_helmet": "Studded Helmet",
       "advancements.back_to_the_past.descr": "Enter the Sky Dimension for the first time",
@@ -588,8 +685,10 @@
       "biome.classicskies.cave_plains": "Cave Plains",
       "item.classicskies.sky_dimension": "Flint and Stone",
       "block.classicskies.stone": "Stone",
+      "subtitles.chest_open": "Sky Chest opens",
       "item.classicskies.sky_apple": "Sky Apple",
       "biome.classicskies.infdev": "Infdev",
+      "block.classicskies.dirt_slab": "Dirt Slab",
       "block.classicskies.oldstone": "Cavestone",
       "block.classicskies.ruby_ore": "Ruby Ore",
       "biome.classicskies.indev": "Indev",
@@ -597,6 +696,7 @@
       "item.classicskies.plate_armor_leggings": "Plate Armor Leggings",
       "block.classicskies.dirt": "Dirt",
       "block.classicskies.rose": "Rose",
+      "biome.classicskies.alpha": "Alpha",
       "item.classicskies.studded_leggings": "Studded Leggings",
       "item.classicskies.plate_sword": "Steel Sword",
       "block.classicskies.steve_co_supply_crate": "Steve Co. Supply Crate",
