@@ -20,12 +20,16 @@ import me.sonicsnap.classicskies.block.SteveCoSupplyCrateBlock;
 import me.sonicsnap.classicskies.block.SkySaplingBlock;
 import me.sonicsnap.classicskies.block.SkyPlanksBlock;
 import me.sonicsnap.classicskies.block.SkyLeavesBlock;
+import me.sonicsnap.classicskies.block.SkyGravelBlock;
 import me.sonicsnap.classicskies.block.SkyDimensionPortalBlock;
 import me.sonicsnap.classicskies.block.SkyChestBlock;
+import me.sonicsnap.classicskies.block.SkyBricksBlock;
 import me.sonicsnap.classicskies.block.RubyOreBlock;
 import me.sonicsnap.classicskies.block.RoseBlock;
+import me.sonicsnap.classicskies.block.PlanksBlock;
 import me.sonicsnap.classicskies.block.PaeoniaBlock;
 import me.sonicsnap.classicskies.block.OldstoneBlock;
+import me.sonicsnap.classicskies.block.MossySkystoneBlock;
 import me.sonicsnap.classicskies.block.DirtSlabBlock;
 import me.sonicsnap.classicskies.block.DirtBlock;
 import me.sonicsnap.classicskies.block.ClassicStoneBlock;
@@ -52,6 +56,10 @@ public class ClassicskiesModBlocks {
 	public static final RegistryObject<Block> STEVE_CO_SUPPLY_CRATE = REGISTRY.register("steve_co_supply_crate", () -> new SteveCoSupplyCrateBlock());
 	public static final RegistryObject<Block> STONE = REGISTRY.register("stone", () -> new StoneBlock());
 	public static final RegistryObject<Block> DIRT_SLAB = REGISTRY.register("dirt_slab", () -> new DirtSlabBlock());
+	public static final RegistryObject<Block> SKY_BRICKS = REGISTRY.register("sky_bricks", () -> new SkyBricksBlock());
+	public static final RegistryObject<Block> SKY_GRAVEL = REGISTRY.register("sky_gravel", () -> new SkyGravelBlock());
+	public static final RegistryObject<Block> PLANKS = REGISTRY.register("planks", () -> new PlanksBlock());
+	public static final RegistryObject<Block> MOSSY_SKYSTONE = REGISTRY.register("mossy_skystone", () -> new MossySkystoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

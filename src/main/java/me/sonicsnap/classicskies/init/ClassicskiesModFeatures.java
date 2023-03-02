@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import me.sonicsnap.classicskies.world.features.plants.RoseFeature;
 import me.sonicsnap.classicskies.world.features.plants.PaeoniaFeature;
+import me.sonicsnap.classicskies.world.features.ores.SkyGravelFeature;
 import me.sonicsnap.classicskies.world.features.ores.RubyOreFeature;
 import me.sonicsnap.classicskies.world.features.ores.ClassicStoneFeature;
 import me.sonicsnap.classicskies.ClassicskiesMod;
@@ -40,6 +41,8 @@ public class ClassicskiesModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RubyOreFeature.GENERATE_BIOMES, RubyOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ROSE = register("rose", RoseFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, RoseFeature.GENERATE_BIOMES, RoseFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SKY_GRAVEL = register("sky_gravel", SkyGravelFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SkyGravelFeature.GENERATE_BIOMES, SkyGravelFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

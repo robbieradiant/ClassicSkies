@@ -8,14 +8,14 @@
     "name": "Steel Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "toolType": "Sword",
     "harvestLevel": 1,
     "efficiency": 4.0,
     "attackSpeed": 1.6,
     "enchantability": 16,
-    "damageVsEntity": 4.5,
+    "damageVsEntity": 5.5,
     "usageCount": 536,
     "blocksAffected": [],
     "hasGlow": false,

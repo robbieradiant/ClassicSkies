@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "classicskies:blocks/planks",
+    "particle": "classicskies:blocks/planks"
+  }
+}

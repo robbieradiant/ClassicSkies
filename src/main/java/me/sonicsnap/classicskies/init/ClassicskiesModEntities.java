@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import me.sonicsnap.classicskies.entity.PigmanEntity;
+import me.sonicsnap.classicskies.entity.PCGamerCowEntity;
 import me.sonicsnap.classicskies.entity.HumanEntity;
 import me.sonicsnap.classicskies.ClassicskiesMod;
 
@@ -33,6 +34,11 @@ public class ClassicskiesModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(HumanEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PCGamerCowEntity>> PC_GAMER_COW = register("pc_gamer_cow",
+			EntityType.Builder.<PCGamerCowEntity>of(PCGamerCowEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PCGamerCowEntity::new)
+
+					.sized(0.9f, 1.4f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -43,6 +49,7 @@ public class ClassicskiesModEntities {
 		event.enqueueWork(() -> {
 			PigmanEntity.init();
 			HumanEntity.init();
+			PCGamerCowEntity.init();
 		});
 	}
 
@@ -50,5 +57,6 @@ public class ClassicskiesModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(PIGMAN.get(), PigmanEntity.createAttributes().build());
 		event.put(HUMAN.get(), HumanEntity.createAttributes().build());
+		event.put(PC_GAMER_COW.get(), PCGamerCowEntity.createAttributes().build());
 	}
 }

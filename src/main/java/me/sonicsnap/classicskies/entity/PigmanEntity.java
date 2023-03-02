@@ -13,7 +13,6 @@ import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
@@ -33,7 +32,6 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
@@ -46,7 +44,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
 import me.sonicsnap.classicskies.procedures.PigmanTameProcedure;
-import me.sonicsnap.classicskies.init.ClassicskiesModItems;
 import me.sonicsnap.classicskies.init.ClassicskiesModEntities;
 
 import java.util.Set;
@@ -68,11 +65,8 @@ public class PigmanEntity extends TamableAnimal {
 
 	public PigmanEntity(EntityType<PigmanEntity> type, Level world) {
 		super(type, world);
-		xpReward = 2;
+		xpReward = 1;
 		setNoAi(false);
-		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(Items.STONE_SWORD));
-		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(ClassicskiesModItems.PLATE_ARMOR_HELMET.get()));
-		this.setItemSlot(EquipmentSlot.CHEST, new ItemStack(ClassicskiesModItems.PLATE_ARMOR_CHESTPLATE.get()));
 	}
 
 	@Override
@@ -185,7 +179,7 @@ public class PigmanEntity extends TamableAnimal {
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
-		builder = builder.add(Attributes.MAX_HEALTH, 10);
+		builder = builder.add(Attributes.MAX_HEALTH, 20);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 2);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);

@@ -41,6 +41,8 @@ public class SkyDimensionDimension {
 			replaceableBlocks.add(ClassicskiesModBlocks.STONE.get());
 			replaceableBlocks.add(ClassicskiesModBlocks.CLASSIC_GRASS.get());
 			replaceableBlocks.add(ClassicskiesModBlocks.DIRT.get());
+			replaceableBlocks.add(ClassicskiesModBlocks.CLASSIC_GRASS.get());
+			replaceableBlocks.add(ClassicskiesModBlocks.DIRT.get());
 			replaceableBlocks.add(ClassicskiesModBlocks.CAVE_GRASS.get());
 			replaceableBlocks.add(ClassicskiesModBlocks.OLDSTONE.get());
 			event.enqueueWork(() -> {

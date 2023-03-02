@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "loottable",
   "definition": {
-    "type": "Chest",
+    "type": "Entity",
     "pools": [
       {
         "minrolls": 1,
@@ -14,10 +14,24 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:SteelIngot"
+              "value": "Items.FEATHER"
             },
-            "weight": 40,
-            "minCount": 0,
+            "weight": 20,
+            "minCount": 1,
+            "maxCount": 1,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "Items.GUNPOWDER"
+            },
+            "weight": 20,
+            "minCount": 1,
             "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
@@ -28,30 +42,21 @@
           {
             "type": "item",
             "item": {
-              "value": "Blocks.AIR"
+              "value": "Items.STRING"
             },
-            "weight": 60,
+            "weight": 20,
             "minCount": 1,
-            "maxCount": 1,
+            "maxCount": 2,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
             "explosionDecay": false,
             "silkTouchMode": 0
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+          },
           {
             "type": "item",
             "item": {
-              "value": "Items.IRON_PICKAXE"
+              "value": "Items.FLINT_AND_STEEL"
             },
             "weight": 20,
             "minCount": 1,
@@ -67,7 +72,7 @@
             "item": {
               "value": "Blocks.AIR"
             },
-            "weight": 80,
+            "weight": 20,
             "minCount": 1,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
@@ -79,7 +84,7 @@
         ]
       }
     ],
-    "name": "chests/indev_chest",
+    "name": "entities/pc_gamer_cow",
     "namespace": "mod"
   }
 }

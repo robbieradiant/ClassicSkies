@@ -30,7 +30,7 @@ public class ClassicskiesModItems {
 	public static final RegistryObject<Item> CLASSIC_STONE = block(ClassicskiesModBlocks.CLASSIC_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> OLDSTONE = block(ClassicskiesModBlocks.OLDSTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PIGMAN = REGISTRY.register("pigman_spawn_egg",
-			() -> new ForgeSpawnEggItem(ClassicskiesModEntities.PIGMAN, -34385, -32865, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+			() -> new ForgeSpawnEggItem(ClassicskiesModEntities.PIGMAN, -1337449, -2596257, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> PLATE_ARMOR_HELMET = REGISTRY.register("plate_armor_helmet", () -> new PlateArmorItem.Helmet());
 	public static final RegistryObject<Item> PLATE_ARMOR_CHESTPLATE = REGISTRY.register("plate_armor_chestplate",
 			() -> new PlateArmorItem.Chestplate());
@@ -54,10 +54,17 @@ public class ClassicskiesModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> SKY_APPLE = REGISTRY.register("sky_apple", () -> new SkyAppleItem());
 	public static final RegistryObject<Item> PLATE_SWORD = REGISTRY.register("plate_sword", () -> new PlateSwordItem());
-	public static final RegistryObject<Item> STONE = block(ClassicskiesModBlocks.STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> STONE = block(ClassicskiesModBlocks.STONE, null);
 	public static final RegistryObject<Item> HUMAN = REGISTRY.register("human_spawn_egg",
 			() -> new ForgeSpawnEggItem(ClassicskiesModEntities.HUMAN, -16734040, -5014686, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> DIRT_SLAB = block(ClassicskiesModBlocks.DIRT_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PC_GAMER_COW = REGISTRY.register("pc_gamer_cow_spawn_egg",
+			() -> new ForgeSpawnEggItem(ClassicskiesModEntities.PC_GAMER_COW, -12636124, -16777216,
+					new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> SKY_BRICKS = block(ClassicskiesModBlocks.SKY_BRICKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SKY_GRAVEL = block(ClassicskiesModBlocks.SKY_GRAVEL, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PLANKS = block(ClassicskiesModBlocks.PLANKS, null);
+	public static final RegistryObject<Item> MOSSY_SKYSTONE = block(ClassicskiesModBlocks.MOSSY_SKYSTONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

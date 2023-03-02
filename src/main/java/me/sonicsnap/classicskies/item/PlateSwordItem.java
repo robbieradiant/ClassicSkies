@@ -22,7 +22,7 @@ public class PlateSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2.5f;
+				return 3.5f;
 			}
 
 			public int getLevel() {
@@ -36,6 +36,6 @@ public class PlateSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ClassicskiesModItems.STEEL_INGOT.get()));
 			}
-		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }
